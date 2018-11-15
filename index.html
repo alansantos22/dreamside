@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <title>O jogo mais aguardado</title>
+    </head>
+    <body>
+        <div id="conteudo">
+            <div id="header">
+                <img style="height:40px;width:40px;padding:5px;float:left;margin-left:20px;" 
+                src="https://image.freepik.com/vetores-gratis/icone-de-usuario-do-sexo-masculino_17-810120247.jpg" />
+                <h2 id="nome_user" style="float:left;padding:10px;font-family:calibri light;">Isario111</h2>
+                <button style="margin-top:7px;" onclick="trabalho()">TRABALHO</button>
+                <div id="cronometro-trabalho">
+                    <img src="img/cronometro.png" />
+                    <span id="crono-span">0 : 0 : 0</span>
+                </div>
+                <img style="height:40px;width:40px;padding:5px;float:right;margin-right:20px;" 
+                src="https://s2.coinmarketcap.com/static/img/coins/200x200/1751.png" />
+                <h2 id="coinh2" style="float:right;padding:10px;font-family:calibri light;color:#ff0"></h2>
+            </div>
+            <div id="tela">
+                <div id="compra">
+                    <h3>Deseja comprar essa propriedade?</h3>
+                    <button onclick="comprado()">COMPRAR</button><button onclick="fecharCompra()">NÃO COMPRAR</button>
+                </div>
+                <div id="messagebox">
+                    <p id="messagep" ></p>
+                    <button onclick="fecharMessageBox()">OK</button>
+                </div>
+                <div id="telaterreno">
+                    <a id="fecharterreno">X</a>
+                </div>
+                <div id="trabalho">
+                    <a id="fechartrabalho" onclick="fechar('trabalho')">X</a>
+                    <img src="img/mineracao.jpg" />
+                    <h1>Mineiro</h1>
+                    <table>
+                        <tr>
+                            <td><img src="img/cifrao.png" /></td>
+                            <td><p><span id="salario-trabalho">10</span> coins</p></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/cronometro.png" /></td>
+                            <td><p><span id="tempo-trabalho">2</span> segundos</p></td>
+                        </tr>
+                    </table>
+                    <button onclick="trabalhar()" id="trabalhar-turno" style="float:left;">TRABALHAR</button>
+                    <button onclick="sairTrabalho()" id="sair-trabalho" style="float:left;">SAIR DO EMPREGO</button>
+                </div>
+                <div id="lista-empregos">
+                    <div id="header-list-empregos">Lista de empregos</div>
+                    <a id="fechartrabalho" onclick="fechar('lista-empregos')" style="margin:0px;margin-top:-42px;
+                    background:#222;padding:8px;">X</a>
+                </div>
+            </div>
+            <div id="footer">
+
+            </div>
+            <!--<div id="sidebar">
+                
+            </div>-->
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

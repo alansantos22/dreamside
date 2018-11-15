@@ -1,0 +1,28 @@
+A = Recursos Minerais
+	AA = Petroleo
+	AB = Ferro
+	AC = Ouro
+	AD = Cobre
+	AF = Carvão
+B = Floresta
+	BA = Floresta Comum
+C= Cidade
+	CND = Terreno vazio 
+	CIM = Terreno impróprio p/ construção
+	CA = Residencial
+D = Planicies
+	DA = Planicie c/ grama
+E = Água com recursos
+F = Água s/ recursos
+G = Pedreira
+	GA = Pedreira normal
+
+-------------------------------------------------------------------
+
+$ = Comprado
+Sem "$" = Vago
+
+------------------------------------------------------------------
+
+J = Empregos
+	JA = Emprego vago

@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+}
+#conteudo{
+    height:auto;
+    width:auto;
+    background:#1E90FF;
+    margin:0 auto;
+}
+#header{
+    width:100%;
+    height:50px;
+    background:#333;
+    float:left;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+}
+#sidebar{
+    width:400px;
+    height:100%;
+    background: #555;
+    position:absolute;
+    top:0;
+    right:0;
+}
+#tela{
+    width:2600px;
+    height:600px;
+    background: #999;
+    float:left;
+}
+#compra{
+    width:350px;
+    height:80px;
+    background:#555;
+    color:#fff;
+    border:5px solid #444;
+    border-radius:20px;
+    position:fixed;
+    top:250px;
+    left:500px;
+    display: none;
+    text-align:center;
+    padding:20px;
+    font-family: calibri light;
+}
+#messagebox{
+    width:350px;
+    height:90px;
+    background:#555;
+    color:#fff;
+    border:5px solid #444;
+    border-radius:20px;
+    position:fixed;
+    top:250px;
+    left:500px;
+    display: none;
+    text-align:center;
+    padding:20px;
+    font-family: calibri light;
+    z-index: 200;
+}
+button{
+    padding:10px 30px 10px 30px;
+    background:#222;
+    border:none;
+    color:#fff;
+    margin:10px;
+    margin-top:25px;
+    font-family: calibri light;
+    
+}
+button:hover{
+    background:#444;
+    cursor:pointer;
+}
+#telaterreno{
+    width:1000px;
+    height:600px;
+    background:#444;
+    position: absolute;
+    top:30px;
+    left:10%;
+    border:solid #222 5px;
+    border-top:solid #222 20px;
+    overflow: hidden;
+    display:none;
+}
+#fecharterreno{
+    color:#fff;
+    float:right;
+    margin:5px;
+    margin-top:-28px;
+    cursor:pointer;
+    font-family:"calibri";
+    font-size:20px;
+}
+#trabalho{
+    width:350px;
+    height:420px;
+    background:#444;
+    position: fixed;
+    top:100px;
+    left:35%;
+    border:solid #222 5px;
+    border-top:solid #222 30px;
+    display: none;
+    text-align: center;
+    font-family: calibri light;
+    z-index: 100;
+}
+#trabalho img{
+    height:150px;
+    width:310px;
+    margin:20px;
+}
+#trabalho table p{
+    text-align:left;
+    color:#fff;
+    font-family: calibri light;
+}
+#trabalho table img{
+    width:30px;
+    height:30px;
+    float:left;
+    margin:0;
+    padding:10px;
+}
+#trabalho table tr td{
+    height:40px;
+    padding:0px;
+    margin:0;
+}
+#trabalho h1{
+    color:#fff;
+    margin-bottom:15px;
+    text-align:center;
+    margin:0;
+}
+#fechartrabalho{
+    color:#fff;
+    float:right;
+    margin:5px;
+    margin-top:-28px;
+    cursor:pointer;
+    font-family:"calibri";
+    font-size:20px;
+}
+#cronometro-trabalho{
+    width:150px;
+    height:30px;
+    margin:7px;
+    background:#34495e;
+    float:left;
+    border:solid 3px #2c3e50;
+}
+#cronometro-trabalho img{
+    width:20px;
+    height:20px;
+    margin:5px;
+    float:left;
+}
+#cronometro-trabalho span{
+    float:left;
+    line-height:32px;
+    margin-left:15px;
+    font-family:calibri light;
+}
+#lista-empregos{
+    width:600px;
+    height:500px;
+    background:#444;
+    position: fixed;
+    top:60px;
+    left:25%;
+    border:solid #222 5px;
+    display: none;
+    text-align: center;
+    font-family: calibri light;
+    z-index: 100;
+    overflow: auto;
+}
+#header-list-empregos{
+    color:#fff;
+    font-family: calibri light;
+    text-transform: uppercase;
+    height:25px;
+    background:#222;
+    padding:5px;
+}
+.listjobs{
+    width:95%;
+    height:200px;
+    background:#555;
+    margin:10px;
+}
+.listjobs img{
+    width:180px;
+    float:left;
+    height:130px;
+    margin:10px;
+}
+.listJobs table{
+    float:right;
+    margin:10px;
+}
+.listJobs table td{
+    padding:10px;
+    color:#fff;
+}
+#footer{
+    width:100%;
+    height:50px;
+    position:fixed;
+    background:#BDB76B;
+    top:600px;
+    left:0;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background-color: #444;
+    
+  }
+  ::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #222;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #222;
+    
+  }
